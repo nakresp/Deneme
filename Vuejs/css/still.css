@@ -1,0 +1,73 @@
+
+.veri-liste{
+    border-spacing: 0px;
+    border:1px solid gray;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px -2px rgba(0,0,0,0.75)
+
+}
+
+.veri-liste td {
+    width: 75px; height: 20px;
+    text-align: center;
+}
+
+.veri-liste thead td{
+    border-bottom: solid 1px gray;
+    background-color: #e6d39d;
+    font-weight: bold;
+}
+
+.veri-liste tfoot td{
+    border-top: solid 1px gray;
+    background-color: #e6d39d;
+    color: brown;
+    font-weight: bold;
+}
+
+
+.veri-liste tbody td:nth-last-child(1){
+
+    color: red;
+    font-weight: bold;
+    border-left: 1px solid gray;
+}
+
+.veri-liste tbody tr input{
+    text-align: center;
+    display: block;
+    width: 60px; height: 14px;
+    border: 1px #55defa solid;
+
+}
+
+.veri-liste tbody tr:nth-child(odd){
+    background-color:blanchedalmond;
+
+}
+
+
+.liste-wrapper .sec{
+    padding: 5px;
+
+}
+
+
+.liste-wrapper .sec button{
+
+    border: 1px solid gray;
+    border-radius: 3px;
+
+    height: 25px;
+
+}
+.liste-wrapper .sec button:hover{
+
+    background-color: goldenrod;
+
+
+}
+
+
+
+
